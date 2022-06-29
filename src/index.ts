@@ -58,7 +58,7 @@ function getOptions() {
     content: core.getInput('content'),
     commitMessage: core.getInput('commit_message'),
     openingComment: core.getInput('opening_comment'),
-    closingComment: core.getInput('closingComment'),
+    closingComment: core.getInput('closing_comment'),
   }
 }
 

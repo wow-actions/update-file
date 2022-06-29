@@ -1,7 +1,7 @@
 <h1 align="center">Update File</h1>
 
 <p align="center">
-  <a href="/wow-actions/update-file/blob/master/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/wow-actions/update-file?style=flat-square"></a>
+  <a href="/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/wow-actions/update-file?style=flat-square"></a>
   <a href="https://www.typescriptlang.org" rel="nofollow"><img alt="Language" src="https://img.shields.io/badge/language-TypeScript-blue.svg?style=flat-square"></a>
   <a href="https://github.com/wow-actions/update-file/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" ></a>
   <a href="https://github.com/marketplace/actions/update-file" rel="nofollow"><img alt="website" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=marketplace&color=0076D6&style=flat-square&logo=google-chrome&logoColor=0076D6" ></a>
@@ -18,14 +18,6 @@
 1. Specify the location to update in your the file by adding `opening_comment` and `closing_comment`. Such as you can add comments in your markdown file:
 
 ```md
-<!-- [START AUTO UPDATE] -->
-<!-- Please keep comment here to allow auto update -->
-Updated by update-file action
-
-<!-- [START AUTO UPDATE] -->
-<!-- Please keep comment here to allow auto update -->
-Updated by update-file action
-
 <!-- [START AUTO UPDATE] -->
 
 <!-- [END AUTO UPDATE] -->
