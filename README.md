@@ -43,7 +43,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           path: README.md
-          content: 'Updated by [Update File](./)'
+          content: 'Updated by update-file action'
 ```
 
 ## Inputs
