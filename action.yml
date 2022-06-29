@@ -1,0 +1,31 @@
+name: Update File
+description: Automatically update a file by replace marked section with the given content
+author: bubkoo <bubkoo.wy@gmail.com>
+branding:
+  icon: refresh-cw
+  color: orange
+inputs:
+  GITHUB_TOKEN:
+    description: Your GitHub token for authentication.
+    required: true
+  path:
+    description: File path to update
+    required: true
+  content:
+    description: Content to update the file
+    required: true
+  commit_message:
+    description: Commit message when update the file
+    required: false
+    default: 'chore: update [skip ci]'
+  opening_comment:
+    description: Opening comment
+    required: false
+    default: '<!-- [START AUTO UPDATE] -->'
+  closing_comment:
+    description: Closing comment
+    required: false
+    default: '<!-- [END AUTO UPDATE] -->'
+runs:
+  using: node12
+  main: dist/index.js
