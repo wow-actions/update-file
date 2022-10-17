@@ -1,6 +1,6 @@
 {
   "name": "update-file",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Automatically update a file by replace marked section with the given content",
   "main": "dist/index.js",
   "files": [
