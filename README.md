@@ -60,7 +60,7 @@ Various inputs are defined to let you configure the action:
 | `commit_message` | Commit message when update the file | `'chore: update [skip ci]'` |
 | `opening_comment` | The comment to match the start line of section to update | `'<!-- [START AUTO UPDATE] -->'` |
 | `closing_comment` | The comment to match the end line of section to update | `'<!-- [END AUTO UPDATE] -->'` |
-| `warning_comment` | The comment to match the end line of section to update | `'<!-- <!-- Please keep comment here to allow auto-update --> -->'` |
+| `warning_comment` | The comment to match the end line of section to update | `'<!-- Please keep comment here to allow auto-update -->'` |
 
 ## 🔖 License
 
