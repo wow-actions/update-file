@@ -20,7 +20,9 @@
 ```md
 <!-- [START AUTO UPDATE] -->
 <!-- Please keep comment here to allow auto update -->
+
 Updated by update-file action
+
 <!-- [END AUTO UPDATE] -->
 ```
 
@@ -56,8 +58,9 @@ Various inputs are defined to let you configure the action:
 | `path` | File path to update | N/A |
 | `content` | Content to update the file | N/A |
 | `commit_message` | Commit message when update the file | `'chore: update [skip ci]'` |
-| `opening_comment` | The comment to match the start line of section to update | `'<!-- [START AUTO UPDATE -->'` |
-| `closing_comment` | The comment to match the end line of section to update | `'<!-- [END AUTO UPDATE -->'` |
+| `opening_comment` | The comment to match the start line of section to update | `'<!-- [START AUTO UPDATE] -->'` |
+| `closing_comment` | The comment to match the end line of section to update | `'<!-- [END AUTO UPDATE] -->'` |
+| `warning_comment` | The comment to match the end line of section to update | `'<!-- <!-- Please keep comment here to allow auto-update --> -->'` |
 
 ## 🔖 License
 
