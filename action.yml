@@ -26,6 +26,10 @@ inputs:
     description: Closing comment
     required: false
     default: '<!-- [END AUTO UPDATE] -->'
+  warning_comment:
+    description: Warning comment
+    required: false
+    default: '<!-- Please keep comment here to allow auto-update -->'
 runs:
   using: node16
   main: dist/index.js

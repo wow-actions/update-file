@@ -59,6 +59,7 @@ function getOptions() {
     commitMessage: core.getInput('commit_message'),
     openingComment: core.getInput('opening_comment'),
     closingComment: core.getInput('closing_comment'),
+    warningComment: core.getInput('warning_comment'),
   }
 }
 
@@ -111,7 +112,7 @@ async function run() {
       startIndex,
       dropCount,
       options.openingComment,
-      '<!-- Please keep comment here to allow auto update -->',
+      options.warningComment,
       options.content,
       options.closingComment,
     )
