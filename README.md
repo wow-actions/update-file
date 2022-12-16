@@ -1,11 +1,11 @@
 <h1 align="center">Update File</h1>
 
 <p align="center">
+  <a href="https://github.com/wow-actions/update-file/actions/workflows/release.yml"><img alt="build" src="https://img.shields.io/github/actions/workflow/status/wow-actions/update-file/release.yml?branch=master&logo=github&style=flat-square" ></a>
   <a href="/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/wow-actions/update-file?style=flat-square"></a>
   <a href="https://www.typescriptlang.org" rel="nofollow"><img alt="Language" src="https://img.shields.io/badge/language-TypeScript-blue.svg?style=flat-square"></a>
   <a href="https://github.com/wow-actions/update-file/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" ></a>
   <a href="https://github.com/marketplace/actions/update-file" rel="nofollow"><img alt="website" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=marketplace&color=0076D6&style=flat-square&logo=google-chrome&logoColor=0076D6" ></a>
-  <a href="https://github.com/wow-actions/update-file/actions/workflows/release.yml"><img alt="build" src="https://img.shields.io/github/workflow/status/wow-actions/update-file/Release/master?logo=github&style=flat-square" ></a>
   <a href="https://lgtm.com/projects/g/wow-actions/update-file/context:javascript" rel="nofollow"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/wow-actions/update-file.svg?logo=lgtm&style=flat-square" ></a>
 </p>
 
